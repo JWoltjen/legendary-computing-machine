@@ -3,7 +3,7 @@ import './BotAvatar.css'
 export default function BotAvatar() {
     return (
         <div className='neumann-avatar'>
-            
+            N
         </div>
     )
 }

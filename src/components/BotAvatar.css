@@ -1,9 +1,12 @@
 .neumann-avatar {
   width: 35px;
   height: 35px;
-  border-radius: 25%;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
+  background-color: blue;
+  color: whitesmoke;
+  margin-right: 15px;
 }
