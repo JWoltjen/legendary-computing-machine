@@ -8,11 +8,12 @@ class MessageParser {
     console.log(message)
     console.log(this.state)
     const lowercase = message.toLowerCase()
-    if(lowercase.includes("hello") && lowercase.includes("movie")){
-    console.log("hi"); 
-    console.log (this.state.movieTitles[0])
+    if(lowercase.includes("hello")){
+      this.actionProvider.helloWorldHandler()
     }
   }
 }
 
 export default MessageParser;
+
+//the message parser decides which response to activate

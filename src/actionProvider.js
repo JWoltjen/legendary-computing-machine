@@ -5,9 +5,16 @@ class ActionProvider {
     this.createClientMessage = createClientMessage;
   }
 
+  helloWorldHandler = () => {
+    const message = this.createChatBotMessage("Hello, I am Neumann.")
+    this.setChatBotMessage(message)
+  }
+
   setChatBotState = (message) => {
-    this.setState(state => ({...state, messages: [...state.messages, message]})
+    this.setState(state => ({...state, messages: [...state.messages, message]}))
   }
 }
 
 export default ActionProvider;
+
+//responses are defined in the actionProvider
