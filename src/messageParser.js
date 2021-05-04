@@ -12,7 +12,6 @@ class MessageParser {
     console.log("hi"); 
     console.log (this.state.movieTitles[0])
     }
-
   }
 }
 
